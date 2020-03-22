@@ -11,7 +11,7 @@ class GifsController < ApplicationController
   # GET /gifs/1
   # GET /gifs/1.json
   def show
-    @gif = Gif.find()
+    @gif = Gif.find(params[:id])
   end
 
   # GET /gifs/new
@@ -26,7 +26,7 @@ class GifsController < ApplicationController
   # POST /gifs
   # POST /gifs.json
   def create
-    @gif = Gif.new(gif_params)
+    @gif = current_user.gifs.new(gif_params)
 
     respond_to do |format|
       if @gif.save

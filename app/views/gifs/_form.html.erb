@@ -25,7 +25,7 @@
 
   <div class="field">
     <%= form.label :tag_list %>
-    <%= form.text_field :tag_list %>
+    <%= form.text_field :tag_list, value: form.object.tag_list.join(", ") %>
   </div>
 
   <div class="actions">
