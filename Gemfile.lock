@@ -87,7 +87,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    down (5.1.1)
+    down (5.2.0)
       addressable (~> 2.5)
     erubi (1.9.0)
     ffi (1.12.2)
@@ -132,7 +132,7 @@ GEM
     nokogiri (1.10.9-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
-    public_suffix (4.0.3)
+    public_suffix (4.0.6)
     puma (4.3.3)
       nio4r (~> 2.0)
     puma (4.3.3-java)
@@ -196,7 +196,7 @@ GEM
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
     sequel (4.49.0)
-    shrine (3.2.1)
+    shrine (3.3.0)
       content_disposition (~> 1.0)
       down (~> 5.1)
     spring (2.1.0)
@@ -267,7 +267,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   sequel (~> 4.36)
-  shrine (~> 3.2, >= 3.2.1)
+  shrine (~> 3.3)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
